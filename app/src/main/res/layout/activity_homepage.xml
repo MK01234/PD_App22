@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pdapp2bg"
+    tools:context="sg.edu.rp.c346.pd_app2.homepage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="144dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ttticon" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="156dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginStart="121dp"
+        android:text="VS Player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonvsCPU"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginStart="121dp"
+        android:text="VS Computer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEnd"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStart" />
+</android.support.constraint.ConstraintLayout>

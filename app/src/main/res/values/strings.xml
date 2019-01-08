@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PD_App2</string>
+    <string name="p1">Player 1:</string>
+    <string name="p">Player</string>
+    <string name="p2">Player 2:</string>
+    <string name="btngame">Start Game</string>
+    <string name="end">Quit</string>
+    <string name="btngamecpu">Start Game</string>
+</resources>
